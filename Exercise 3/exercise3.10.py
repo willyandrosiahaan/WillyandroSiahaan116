@@ -1,0 +1,18 @@
+places = ["Japan", "New Zealand", "Italy", "Canada", "Norway"]
+print(places)
+removed1 = places.pop()
+del places[0]
+removed3 = places.remove("Italy")
+print(f"Places after removal: {places}")
+add1 = places.append("Germany")
+add2 = places.insert(0, "France")
+add3 = places.insert(2, "Spain")
+print(f"Places after adding: {places}")
+print(f"Places in alphabetical order: {sorted(places)}")
+print(f"Places in reverse alphabetical order: {sorted(places, reverse=True)}")
+print(f"Final list of places: {places}")
+reverse = places.reverse()
+print(f"Places in reverse order: {places}")
+print(f"Number of places in the list: {len(places)}")
+places.sort()
+print(f"Places sorted in alphabetical order: {places}")
