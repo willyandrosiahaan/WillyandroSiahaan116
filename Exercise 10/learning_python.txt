@@ -1,0 +1,1 @@
+In this chapter I learnt to read file in Python
